@@ -1,0 +1,26 @@
+# See http://github.com/github/gitignore for the full gitignore template
+# Bytecode files
+*.exe
+*.dll
+*.so
+*.pyc
+*.pyo
+*.compiled
+
+# Packages
+node_modules/
+*.pem
+
+# Dependency-based directories
+node_modules/
+
+# Environment
+.env
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+.AppImage
