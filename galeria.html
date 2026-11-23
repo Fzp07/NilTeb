@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Galería de BioAurora: monitorización, laboratorio, mantenimiento, imagenología, calibración y equipamiento quirúrgico.">
+  <meta name="theme-color" content="#f7fbfa">
+  <title>Galería · NilTeb</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="BioAurora, ir al inicio">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 12h3.5L9 5.5l4.5 13L16 12h5" />
+          </svg>
+        </span>
+        <span class="logo__text">Nil<em>Teb</em></span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Abrir menú de navegación">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="nav" id="nav-menu" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Inicio</a></li>
+          <li><a class="nav__link" href="nosotros.html">Nosotros</a></li>
+          <li><a class="nav__link" href="servicios.html">Servicios</a></li>
+          <li><a class="nav__link is-active" href="galeria.html" aria-current="page">Galería</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Galería</p>
+        <h1 class="page-hero__title">Nuestro trabajo, en detalle</h1>
+        <p class="page-hero__lead">
+          Equipos, laboratorios y espacios clínicos donde nuestra ingeniería
+          está presente. Pulsa sobre cualquier imagen para ampliarla.
+        </p>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <div class="container">
+        <div class="gallery__grid" data-reveal>
+          <button class="gallery__item" type="button" data-caption="Monitor de signos vitales">
+            <img src="assets/img/gallery-1.svg" width="640" height="480"
+              alt="Monitor de signos vitales mostrando un electrocardiograma">
+            <span class="gallery__caption">Monitorización</span>
+          </button>
+
+          <button class="gallery__item" type="button" data-caption="Laboratorio clínico">
+            <img src="assets/img/gallery-2.svg" width="640" height="480"
+              alt="Microscopio y tubos de ensayo en un laboratorio clínico">
+            <span class="gallery__caption">Laboratorio</span>
+          </button>
+
+          <button class="gallery__item" type="button" data-caption="Mantenimiento de equipos médicos">
+            <img src="assets/img/gallery-3.svg" width="640" height="480"
+              alt="Instrumentos de mantenimiento junto a un equipo médico">
+            <span class="gallery__caption">Mantenimiento</span>
+          </button>
+
+          <button class="gallery__item" type="button" data-caption="Sala de imagenología">
+            <img src="assets/img/gallery-4.svg" width="640" height="480"
+              alt="Equipo de resonancia magnética en una sala de imagenología">
+            <span class="gallery__caption">Imagenología</span>
+          </button>
+
+          <button class="gallery__item" type="button" data-caption="Calibración y verificación">
+            <img src="assets/img/gallery-5.svg" width="640" height="480"
+              alt="Manómetro de calibración con certificado de verificación">
+            <span class="gallery__caption">Calibración</span>
+          </button>
+
+          <button class="gallery__item" type="button" data-caption="Equipamiento quirúrgico">
+            <img src="assets/img/gallery-6.svg" width="640" height="480"
+              alt="Lámpara quirúrgica y mesa de operaciones en un quirófano">
+            <span class="gallery__caption">Quirófano</span>
+          </button>
+        </div>
+
+        <p class="page-cta" data-reveal>
+          ¿Necesitas soporte para tu equipo?
+          <a href="mailto:hola@bioaurora.example">Escríbenos y te ayudamos →</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="logo logo--light" aria-label="BioAurora, volver al inicio">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 12h3.5L9 5.5l4.5 13L16 12h5" />
+            </svg>
+          </span>
+          <span class="logo__text">Nil<em>Teb</em></span>
+        </a>
+        <p class="footer__tagline">
+          Ingeniería biomédica, mantenimiento y calibración de equipos médicos.
+          Tecnología segura para cuidar mejor.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Contacto</h3>
+        <ul class="footer__list">
+          <li>Parque Tecnológico, Av. de la Salud 120</li>
+          <li><a href="tel:+34600123456">+34 600 123 456</a></li>
+          <li><a href="mailto:hola@bioaurora.example">hola@bioaurora.example</a></li>
+          <li>Soporte de urgencias 24/7</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Horario</h3>
+        <ul class="footer__list">
+          <li><span>Lunes a viernes</span> 8:00 – 18:00</li>
+          <li><span>Sábado</span> 9:00 – 13:00</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__title">Síguenos</h3>
+        <ul class="footer__list footer__list--social">
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> NilTeb. Todos los derechos reservados.</p>
+      <p>Ingeniería biomédica al servicio de la salud.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox de la galería -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imágenes de la galería"
+    hidden>
+    <button class="lightbox__close" id="lightbox-close" type="button" aria-label="Cerrar visor">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round">
+        <path d="M6 6l12 12M18 6L6 18" />
+      </svg>
+    </button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" id="lightbox-img" src="" alt="">
+      <figcaption class="lightbox__caption" id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

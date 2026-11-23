@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-labelledby="g3Title g3Desc">
+  <title id="g3Title">Mantenimiento de equipos médicos</title>
+  <desc id="g3Desc">Ilustración de un equipo médico abierto para revisión con una llave inglesa, un destornillador y engranajes sobre la mesa de trabajo.</desc>
+
+  <defs>
+    <linearGradient id="g3Bg" x1="0" y1="0" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef8f6"/>
+      <stop offset="1" stop-color="#d5eae5"/>
+    </linearGradient>
+    <linearGradient id="g3Body" x1="140" y1="106" x2="400" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6f2ef"/>
+    </linearGradient>
+    <linearGradient id="g3Screen" x1="162" y1="164" x2="378" y2="294" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c2825"/>
+      <stop offset="1" stop-color="#123f39"/>
+    </linearGradient>
+    <linearGradient id="g3Table" x1="40" y1="396" x2="600" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#118077"/>
+      <stop offset="1" stop-color="#0b5d57"/>
+    </linearGradient>
+    <pattern id="g3Grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0v20" fill="none" stroke="#1b4a44" stroke-width="1"/>
+    </pattern>
+    <clipPath id="g3ScreenClip">
+      <rect x="162" y="164" width="216" height="130" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#g3Bg)"/>
+  <circle cx="548" cy="82" r="140" fill="#bfe3dc" opacity=".5"/>
+  <circle cx="66" cy="430" r="96" fill="#c4e6df" opacity=".45"/>
+  <circle cx="320" cy="240" r="230" fill="#ffffff" opacity=".32"/>
+
+  <!-- Destellos -->
+  <g stroke="#0f766e" stroke-width="3" stroke-linecap="round" opacity=".25">
+    <path d="M96 128v18M87 137h18"/>
+    <path d="M588 322v14M581 329h14"/>
+    <path d="M446 76v12M440 82h12"/>
+  </g>
+
+  <!-- Engranajes -->
+  <g transform="translate(528 168)" fill="#0d9488">
+    <g>
+      <rect x="-6" y="-42" width="12" height="18" rx="3"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(45)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(90)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(135)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(180)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(225)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(270)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(315)"/>
+    </g>
+    <circle r="28"/>
+    <circle r="12" fill="#eef8f6"/>
+  </g>
+  <g transform="translate(586 228) scale(.62)" fill="#14a095">
+    <g>
+      <rect x="-6" y="-42" width="12" height="18" rx="3"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(45)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(90)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(135)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(180)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(225)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(270)"/>
+      <rect x="-6" y="-42" width="12" height="18" rx="3" transform="rotate(315)"/>
+    </g>
+    <circle r="28"/>
+    <circle r="12" fill="#eef8f6"/>
+  </g>
+
+  <!-- Mesa de trabajo -->
+  <ellipse cx="320" cy="456" rx="300" ry="16" fill="#0e2421" opacity=".08"/>
+  <rect x="40" y="396" width="560" height="16" rx="8" fill="url(#g3Table)"/>
+  <rect x="88" y="412" width="12" height="52" fill="#0b5d57" opacity=".85"/>
+  <rect x="540" y="412" width="12" height="52" fill="#0b5d57" opacity=".85"/>
+
+  <!-- Equipo médico -->
+  <g>
+    <path d="M222 140v-14a18 18 0 0 1 18-18h60a18 18 0 0 1 18 18v14" fill="none" stroke="#0b5d57" stroke-width="14" stroke-linecap="round"/>
+    <rect x="140" y="140" width="260" height="250" rx="22" fill="url(#g3Body)" stroke="#c3dcd6" stroke-width="2"/>
+    <rect x="162" y="164" width="216" height="130" rx="12" fill="url(#g3Screen)"/>
+
+    <g clip-path="url(#g3ScreenClip)">
+      <rect x="162" y="164" width="216" height="130" fill="url(#g3Grid)" opacity=".55"/>
+      <text x="178" y="190" fill="#7dd3c7" font-size="10" letter-spacing="1.5"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">FC</text>
+      <text x="178" y="222" fill="#6ee7b7" font-size="30" font-weight="700"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">74</text>
+      <text x="222" y="220" fill="#7dd3c7" font-size="10"
+            font-family="system-ui, sans-serif">bpm</text>
+      <text x="302" y="190" fill="#93c5fd" font-size="10" letter-spacing="1.5"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">SpO₂</text>
+      <text x="302" y="212" fill="#bfdbfe" font-size="18" font-weight="700"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">98%</text>
+      <path d="M172 262h38l8-5 6 10 8-5h20l9 5 7-8 6 30 8-42 8 24 7-7h26l8 5 7-6 6 8 8-5h28"
+            fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Panel de control -->
+    <g>
+      <circle cx="184" cy="330" r="15" fill="#e2eeeb" stroke="#c3dcd6" stroke-width="2"/>
+      <path d="M184 322v10M179 327l5 5 5-5" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="228" cy="330" r="15" fill="#e2eeeb" stroke="#c3dcd6" stroke-width="2"/>
+      <path d="M228 338v-10M223 333l5-5 5 5" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>
+      <rect x="256" y="320" width="58" height="9" rx="4.5" fill="#cfe3de"/>
+      <rect x="256" y="336" width="38" height="9" rx="4.5" fill="#cfe3de"/>
+      <circle cx="352" cy="330" r="8" fill="#f59e0b"/>
+    </g>
+    <text x="270" y="376" text-anchor="middle" fill="#5b6c69" font-size="10" letter-spacing="3"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">BIOAURORA</text>
+  </g>
+
+  <!-- Tapa abierta -->
+  <g>
+    <path d="M400 196l82-26v188l-82 26z" fill="#e3efec" stroke="#9ec9c2" stroke-width="2"/>
+    <path d="M424 208v150" stroke="#b9d8d1" stroke-width="2"/>
+    <rect x="434" y="224" width="34" height="22" rx="4" fill="#93c5fd"/>
+    <rect x="434" y="256" width="22" height="14" rx="3" fill="#fbbf24"/>
+    <path d="M446 282c14 6 6 22 18 28s8 24 20 30" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+    <circle cx="450" cy="348" r="12" fill="#0e2421" opacity=".75"/>
+    <circle cx="450" cy="348" r="5" fill="#5eead4"/>
+  </g>
+
+  <!-- Llave inglesa -->
+  <g transform="translate(382 262) scale(7) rotate(10 12 12)">
+    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+          fill="#0f766e" stroke="#0b5d57" stroke-width=".5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Destornillador -->
+  <g transform="rotate(-24 160 424)">
+    <rect x="92" y="410" width="70" height="26" rx="13" fill="#f59e0b"/>
+    <rect x="100" y="416" width="54" height="6" rx="3" fill="#fbbf24"/>
+    <rect x="160" y="418" width="58" height="10" rx="4" fill="#9fb8b2"/>
+    <path d="M218 419l12 4-12 4z" fill="#7f9c96"/>
+  </g>
+
+  <!-- Tornillos -->
+  <g fill="#9fb8b2">
+    <circle cx="482" cy="398" r="7"/>
+    <circle cx="506" cy="410" r="5"/>
+    <circle cx="462" cy="416" r="4"/>
+    <path d="M479 398h6M482 395v6M503 410h6M506 407v6" stroke="#eef8f6" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+</svg>

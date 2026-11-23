@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-labelledby="g4Title g4Desc">
+  <title id="g4Title">Sala de imagenología</title>
+  <desc id="g4Desc">Ilustración de un equipo de resonancia magnética en una sala de imagenología con la camilla preparada para un paciente.</desc>
+
+  <defs>
+    <linearGradient id="g4Bg" x1="0" y1="0" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef8f6"/>
+      <stop offset="1" stop-color="#d7ebe6"/>
+    </linearGradient>
+    <linearGradient id="g4Body" x1="120" y1="64" x2="480" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9eae6"/>
+    </linearGradient>
+    <linearGradient id="g4Ring" x1="150" y1="100" x2="390" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#149e92"/>
+      <stop offset="1" stop-color="#0b5d57"/>
+    </linearGradient>
+    <radialGradient id="g4Bore" cx="0.5" cy="0.45" r="0.7">
+      <stop stop-color="#0e2421"/>
+      <stop offset="1" stop-color="#071c1a"/>
+    </radialGradient>
+    <linearGradient id="g4Floor" x1="0" y1="376" x2="0" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d3e8e3"/>
+      <stop offset="1" stop-color="#c2ded8"/>
+    </linearGradient>
+    <clipPath id="g4Window">
+      <rect x="492" y="106" width="104" height="82" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#g4Bg)"/>
+  <rect x="0" y="376" width="640" height="104" fill="url(#g4Floor)"/>
+  <path d="M0 376h640" stroke="#b9d8d1" stroke-width="2"/>
+  <circle cx="542" cy="68" r="128" fill="#bfe3dc" opacity=".45"/>
+  <circle cx="320" cy="240" r="238" fill="#ffffff" opacity=".3"/>
+
+  <!-- Ventana -->
+  <g>
+    <rect x="486" y="100" width="116" height="94" rx="12" fill="#ffffff" opacity=".7"/>
+    <rect x="492" y="106" width="104" height="82" rx="10" fill="#cdeae4"/>
+    <g clip-path="url(#g4Window)">
+      <circle cx="548" cy="132" r="20" fill="#ffffff" opacity=".65"/>
+      <path d="M492 176l32-26 24 20 20-14 28 20v18H492z" fill="#a9d6ce" opacity=".75"/>
+    </g>
+    <path d="M544 106v82M492 147h104" stroke="#ffffff" stroke-width="5"/>
+  </g>
+
+  <!-- Cartel -->
+  <g transform="translate(506 222)">
+    <rect width="76" height="56" rx="8" fill="#ffffff" opacity=".85" stroke="#cfe3de" stroke-width="2"/>
+    <circle cx="38" cy="22" r="11" fill="none" stroke="#0f766e" stroke-width="3"/>
+    <path d="M33 22h10M38 17v10" stroke="#0f766e" stroke-width="3" stroke-linecap="round"/>
+    <rect x="20" y="40" width="36" height="4" rx="2" fill="#9fb8b2"/>
+  </g>
+
+  <!-- Sombra del equipo -->
+  <ellipse cx="292" cy="384" rx="200" ry="16" fill="#0e2421" opacity=".1"/>
+
+  <!-- Cuerpo del resonador -->
+  <rect x="100" y="64" width="380" height="316" rx="86" fill="url(#g4Body)" stroke="#b9d8d1" stroke-width="2"/>
+  <text x="290" y="96" text-anchor="middle" fill="#5b6c69" font-size="11" letter-spacing="4"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">BIOAURORA</text>
+
+  <!-- Indicadores laterales -->
+  <circle cx="140" cy="150" r="7" fill="#34d399"/>
+  <circle cx="140" cy="174" r="7" fill="#fbbf24"/>
+  <rect x="128" y="198" width="24" height="6" rx="3" fill="#cfe3de"/>
+  <rect x="128" y="212" width="24" height="6" rx="3" fill="#cfe3de"/>
+  <rect x="128" y="226" width="24" height="6" rx="3" fill="#cfe3de"/>
+
+  <!-- Anillo y abertura -->
+  <ellipse cx="290" cy="222" rx="132" ry="126" fill="#0e2421" opacity=".12"/>
+  <ellipse cx="290" cy="216" rx="130" ry="124" fill="url(#g4Ring)"/>
+  <ellipse cx="290" cy="216" rx="108" ry="102" fill="#0e2421"/>
+  <ellipse cx="290" cy="216" rx="88" ry="82" fill="url(#g4Bore)"/>
+  <ellipse cx="290" cy="216" rx="108" ry="102" fill="none" stroke="#2dd4bf" stroke-width="2.5" opacity=".35"/>
+  <path d="M188 154a124 124 0 0 1 92-48" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+
+  <!-- Camilla -->
+  <rect x="330" y="312" width="28" height="56" rx="6" fill="#9fb8b2"/>
+  <rect x="292" y="364" width="106" height="12" rx="6" fill="#7f9c96"/>
+  <rect x="246" y="300" width="356" height="12" rx="6" fill="#9fb8b2"/>
+  <rect x="246" y="284" width="356" height="18" rx="9" fill="#d8efeb"/>
+  <rect x="252" y="276" width="60" height="14" rx="7" fill="#eef6f4"/>
+
+  <!-- Paciente -->
+  <circle cx="320" cy="266" r="21" fill="#f3c6a5"/>
+  <path d="M299 262a21 21 0 0 1 42 0c-6 4-13 6-21 6s-15-2-21-6z" fill="#93c5fd"/>
+  <path d="M306 278c4 4 9 6 14 6s10-2 14-6" fill="none" stroke="#d7a47e" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+
+  <path d="M342 298v-14c0-16 13-29 29-29h112c16 0 29 13 29 29v14z" fill="#5eead4"/>
+  <path d="M396 258c-5 9-5 19 0 28M448 257c-6 10-6 21 0 31M496 258c-5 9-5 19 0 28" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" opacity=".28"/>
+  <ellipse cx="530" cy="288" rx="18" ry="13" fill="#5eead4"/>
+  <path d="M342 268h170" stroke="#2dd4bf" stroke-width="3" opacity=".5"/>
+
+  <!-- Controles de la camilla -->
+  <rect x="580" y="288" width="22" height="12" rx="4" fill="#0b5d57"/>
+  <circle cx="586" cy="294" r="2.5" fill="#5eead4"/>
+  <circle cx="594" cy="294" r="2.5" fill="#5eead4"/>
+</svg>

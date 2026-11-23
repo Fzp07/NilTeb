@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-labelledby="g1Title g1Desc">
+  <title id="g1Title">Monitor de signos vitales</title>
+  <desc id="g1Desc">Primer plano de un monitor de signos vitales que muestra un electrocardiograma, la frecuencia cardíaca y la saturación de oxígeno.</desc>
+
+  <defs>
+    <linearGradient id="g1Bg" x1="0" y1="0" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef8f6"/>
+      <stop offset="1" stop-color="#d5eae5"/>
+    </linearGradient>
+    <linearGradient id="g1Body" x1="80" y1="58" x2="560" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6f2ef"/>
+    </linearGradient>
+    <linearGradient id="g1Screen" x1="102" y1="80" x2="538" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c2825"/>
+      <stop offset="1" stop-color="#123f39"/>
+    </linearGradient>
+    <pattern id="g1Grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0v22" fill="none" stroke="#1b4a44" stroke-width="1"/>
+    </pattern>
+    <clipPath id="g1Clip">
+      <rect x="102" y="80" width="436" height="244" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#g1Bg)"/>
+  <circle cx="530" cy="76" r="130" fill="#bfe3dc" opacity=".5"/>
+  <circle cx="76" cy="426" r="100" fill="#c4e6df" opacity=".5"/>
+  <circle cx="320" cy="238" r="238" fill="#ffffff" opacity=".35"/>
+
+  <!-- Sombra y soporte -->
+  <ellipse cx="326" cy="458" rx="150" ry="12" fill="#0e2421" opacity=".12"/>
+  <rect x="236" y="424" width="168" height="15" rx="7.5" fill="#a9c5bf"/>
+  <circle cx="272" cy="448" r="9" fill="#7f9c96"/>
+  <circle cx="272" cy="448" r="4" fill="#eef6f4"/>
+  <circle cx="368" cy="448" r="9" fill="#7f9c96"/>
+  <circle cx="368" cy="448" r="4" fill="#eef6f4"/>
+  <rect x="306" y="382" width="28" height="46" rx="10" fill="#a9c5bf"/>
+
+  <!-- Cuerpo -->
+  <rect x="80" y="58" width="480" height="330" rx="26" fill="url(#g1Body)" stroke="#c3dcd6" stroke-width="2"/>
+  <rect x="102" y="80" width="436" height="244" rx="14" fill="url(#g1Screen)"/>
+
+  <g clip-path="url(#g1Clip)">
+    <rect x="102" y="80" width="436" height="244" fill="url(#g1Grid)" opacity=".55"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="124" y="110" fill="#7dd3c7" font-size="12" letter-spacing="1.5">FC</text>
+      <text x="124" y="156" fill="#6ee7b7" font-size="46" font-weight="700">76</text>
+      <text x="192" y="154" fill="#7dd3c7" font-size="13">bpm</text>
+
+      <text x="414" y="110" fill="#93c5fd" font-size="12" letter-spacing="1.5">SpO₂</text>
+      <text x="414" y="144" fill="#bfdbfe" font-size="28" font-weight="700">98%</text>
+
+      <text x="414" y="178" fill="#99f6e4" font-size="11" letter-spacing="1.5">RESP</text>
+      <text x="414" y="198" fill="#ccfbf1" font-size="18" font-weight="600">16</text>
+
+      <text x="414" y="312" fill="#99f6e4" font-size="11" letter-spacing="1.5">TEMP</text>
+      <text x="464" y="312" fill="#ccfbf1" font-size="16" font-weight="600">36.5 °C</text>
+    </g>
+
+    <!-- Electrocardiograma -->
+    <path d="M120 238h58l10-6 8 12 10-6h26l12 6 9-10 7 46 9-68 11 38 9-12h40l11 6 9-9 7 14 9-7h50l10 4 8-6 8 8 10-6h42"
+          fill="none" stroke="#34d399" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity=".16"/>
+    <path d="M120 238h58l10-6 8 12 10-6h26l12 6 9-10 7 46 9-68 11 38 9-12h40l11 6 9-9 7 14 9-7h50l10 4 8-6 8 8 10-6h42"
+          fill="none" stroke="#34d399" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Onda secundaria -->
+    <path d="M120 272h70l10-5 8 9 9-4h38l11 5 8-7 7 20 9-28 9 17 8-6h48l10 4 8-5 7 7 9-5h40"
+          fill="none" stroke="#60a5fa" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+    <text x="124" y="304" fill="#a7f3d0" font-size="13" letter-spacing="1"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">NIBP 118/76 mmHg</text>
+  </g>
+
+  <!-- Panel inferior -->
+  <circle cx="132" cy="358" r="10" fill="#d3e6e1"/>
+  <circle cx="132" cy="358" r="4" fill="#0f766e"/>
+  <circle cx="168" cy="358" r="10" fill="#d3e6e1"/>
+  <circle cx="168" cy="358" r="4" fill="#0f766e"/>
+  <text x="320" y="364" text-anchor="middle" fill="#5b6c69" font-size="12" letter-spacing="4"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">BIOAURORA</text>
+  <circle cx="472" cy="358" r="10" fill="#d3e6e1"/>
+  <circle cx="472" cy="358" r="4" fill="#0f766e"/>
+  <circle cx="508" cy="358" r="10" fill="#d3e6e1"/>
+  <circle cx="508" cy="358" r="4" fill="#0f766e"/>
+</svg>

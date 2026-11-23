@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-labelledby="g6Title g6Desc">
+  <title id="g6Title">Equipamiento quirúrgico</title>
+  <desc id="g6Desc">Ilustración de un quirófano con lámpara quirúrgica, mesa de operaciones, paciente cubierto con paño estéril y monitor de signos vitales.</desc>
+
+  <defs>
+    <linearGradient id="g6Bg" x1="0" y1="0" x2="640" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef8f6"/>
+      <stop offset="1" stop-color="#d5eae5"/>
+    </linearGradient>
+    <linearGradient id="g6Floor" x1="0" y1="360" x2="0" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d3e8e3"/>
+      <stop offset="1" stop-color="#c2ded8"/>
+    </linearGradient>
+    <linearGradient id="g6Lamp" x1="178" y1="120" x2="462" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9eae6"/>
+    </linearGradient>
+    <linearGradient id="g6Table" x1="160" y1="316" x2="500" y2="338" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f3fbf9"/>
+      <stop offset="1" stop-color="#d8efeb"/>
+    </linearGradient>
+    <linearGradient id="g6Drape" x1="252" y1="272" x2="472" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="g6Screen" x1="514" y1="144" x2="610" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c2825"/>
+      <stop offset="1" stop-color="#123f39"/>
+    </linearGradient>
+    <radialGradient id="g6Bulb" cx="0.42" cy="0.38" r="0.7">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#g6Bg)"/>
+  <rect x="0" y="360" width="640" height="120" fill="url(#g6Floor)"/>
+  <path d="M0 360h640" stroke="#b9d8d1" stroke-width="2"/>
+  <circle cx="320" cy="212" r="210" fill="#ffffff" opacity=".28"/>
+  <circle cx="78" cy="80" r="110" fill="#bfe3dc" opacity=".35"/>
+
+  <!-- Monitor de signos vitales -->
+  <g>
+    <ellipse cx="560" cy="424" rx="64" ry="9" fill="#0e2421" opacity=".1"/>
+    <rect x="512" y="408" width="94" height="11" rx="5.5" fill="#9fb8b2"/>
+    <circle cx="530" cy="426" r="8" fill="#7f9c96"/>
+    <circle cx="588" cy="426" r="8" fill="#7f9c96"/>
+    <rect x="554" y="218" width="8" height="192" rx="4" fill="#9fb8b2"/>
+    <rect x="504" y="132" width="116" height="90" rx="12" fill="#0e2421"/>
+    <rect x="512" y="140" width="100" height="62" rx="8" fill="url(#g6Screen)"/>
+    <text x="522" y="158" fill="#6ee7b7" font-size="15" font-weight="700"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">78</text>
+    <text x="548" y="157" fill="#7dd3c7" font-size="7"
+          font-family="system-ui, sans-serif">bpm</text>
+    <text x="580" y="158" fill="#93c5fd" font-size="9" font-weight="600"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">98%</text>
+    <path d="M520 186h24l5-4 4 7 5-3h14l6 3 5-6 4 17 5-24 5 13 4-4h22"
+          fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="520" cy="210" r="4" fill="#34d399"/>
+    <circle cx="534" cy="210" r="4" fill="#34d399"/>
+    <circle cx="548" cy="210" r="4" fill="#9fb8b2"/>
+  </g>
+
+  <!-- Portasueros -->
+  <g>
+    <ellipse cx="100" cy="430" rx="52" ry="7" fill="#0e2421" opacity=".1"/>
+    <rect x="62" y="414" width="76" height="10" rx="5" fill="#9fb8b2"/>
+    <circle cx="74" cy="430" r="8" fill="#7f9c96"/>
+    <circle cx="126" cy="430" r="8" fill="#7f9c96"/>
+    <rect x="96" y="196" width="8" height="220" rx="4" fill="#9fb8b2"/>
+    <path d="M96 196v-6c0-10 8-16 16-16" fill="none" stroke="#9fb8b2" stroke-width="5" stroke-linecap="round"/>
+    <rect x="76" y="212" width="44" height="66" rx="10" fill="#eef6f4" stroke="#b9d8d1" stroke-width="2"/>
+    <rect x="80" y="242" width="36" height="32" rx="7" fill="#93c5fd"/>
+    <path d="M98 278v14c0 14 10 22 24 22h104" fill="none" stroke="#93c5fd" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Haz de luz -->
+  <path d="M208 214L118 344h404L430 214z" fill="#ffffff" opacity=".22"/>
+
+  <!-- Lámpara quirúrgica -->
+  <g>
+    <rect x="294" y="0" width="52" height="14" rx="7" fill="#9fb8b2"/>
+    <rect x="312" y="12" width="16" height="76" rx="8" fill="#a9c5bf"/>
+    <circle cx="320" cy="94" r="16" fill="#7f9c96"/>
+    <circle cx="320" cy="94" r="6" fill="#eef6f4"/>
+    <path d="M312 104l-4 34M328 104l4 34" stroke="#a9c5bf" stroke-width="10" stroke-linecap="round"/>
+
+    <ellipse cx="320" cy="176" rx="146" ry="58" fill="#c3dcd6"/>
+    <ellipse cx="320" cy="168" rx="146" ry="56" fill="url(#g6Lamp)" stroke="#b9d8d1" stroke-width="2"/>
+    <ellipse cx="320" cy="180" rx="128" ry="46" fill="#f4fbf9"/>
+    <ellipse cx="320" cy="180" rx="128" ry="46" fill="none" stroke="#0f766e" stroke-width="3" opacity=".25"/>
+
+    <g>
+      <circle cx="320" cy="180" r="19" fill="url(#g6Bulb)" stroke="#0f766e" stroke-width="2.5"/>
+      <circle cx="270" cy="176" r="15" fill="url(#g6Bulb)" stroke="#0f766e" stroke-width="2.5"/>
+      <circle cx="297" cy="204" r="14" fill="url(#g6Bulb)" stroke="#0f766e" stroke-width="2.5"/>
+      <circle cx="343" cy="204" r="14" fill="url(#g6Bulb)" stroke="#0f766e" stroke-width="2.5"/>
+      <circle cx="370" cy="176" r="15" fill="url(#g6Bulb)" stroke="#0f766e" stroke-width="2.5"/>
+    </g>
+    <g fill="#fbbf24">
+      <circle cx="320" cy="180" r="6"/>
+      <circle cx="270" cy="176" r="5"/>
+      <circle cx="297" cy="204" r="4.5"/>
+      <circle cx="343" cy="204" r="4.5"/>
+      <circle cx="370" cy="176" r="5"/>
+    </g>
+
+    <rect x="312" y="224" width="16" height="24" rx="8" fill="#a9c5bf"/>
+    <circle cx="320" cy="254" r="10" fill="#7f9c96"/>
+  </g>
+
+  <!-- Mesa de operaciones -->
+  <g>
+    <ellipse cx="320" cy="436" rx="150" ry="12" fill="#0e2421" opacity=".1"/>
+    <rect x="252" y="414" width="136" height="14" rx="7" fill="#7f9c96"/>
+    <rect x="308" y="348" width="24" height="68" rx="6" fill="#9fb8b2"/>
+    <rect x="154" y="338" width="332" height="10" rx="5" fill="#9fb8b2"/>
+    <rect x="160" y="316" width="328" height="24" rx="12" fill="url(#g6Table)" stroke="#cfe3de" stroke-width="2"/>
+
+    <!-- Paciente cubierto -->
+    <path d="M248 316c0-20 15-36 34-36h134c19 0 34 16 34 36z" fill="url(#g6Drape)"/>
+    <ellipse cx="458" cy="298" rx="18" ry="15" fill="#2dd4bf"/>
+    <path d="M300 282c-6 10-6 22 0 32M354 281c-7 11-7 23 0 34M404 282c-6 10-6 22 0 32" fill="none" stroke="#0f766e" stroke-width="2.5" stroke-linecap="round" opacity=".25"/>
+    <path d="M248 306h190" stroke="#2dd4bf" stroke-width="3" opacity=".45"/>
+
+    <!-- Cabeza -->
+    <circle cx="236" cy="288" r="21" fill="#f3c6a5"/>
+    <path d="M215 284a21 21 0 0 1 42 0c-6 4-13 6-21 6s-15-2-21-6z" fill="#93c5fd"/>
+    <path d="M226 292c3 2 6 3 9 3" fill="none" stroke="#d7a47e" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    <rect x="210" y="308" width="52" height="9" rx="4.5" fill="#e2eeeb"/>
+  </g>
+
+</svg>

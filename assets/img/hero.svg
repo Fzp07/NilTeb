@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Monitor de signos vitales</title>
+  <desc id="heroDesc">Ilustración de un monitor de signos vitales con electrocardiograma, una cruz médica y una línea de pulso sobre un fondo verde suave.</desc>
+
+  <defs>
+    <linearGradient id="heroBg" x1="80" y1="40" x2="720" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eef8f6"/>
+      <stop offset="1" stop-color="#d5eae5"/>
+    </linearGradient>
+    <linearGradient id="heroBody" x1="170" y1="130" x2="630" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6f2ef"/>
+    </linearGradient>
+    <linearGradient id="heroScreen" x1="194" y1="154" x2="606" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c2825"/>
+      <stop offset="1" stop-color="#123f39"/>
+    </linearGradient>
+    <linearGradient id="heroStand" x1="392" y1="430" x2="408" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c3d8d3"/>
+      <stop offset="1" stop-color="#96b3ad"/>
+    </linearGradient>
+    <pattern id="heroGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0v24" fill="none" stroke="#1b4a44" stroke-width="1"/>
+    </pattern>
+    <clipPath id="heroScreenClip">
+      <rect x="194" y="154" width="412" height="226" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#heroBg)"/>
+  <circle cx="660" cy="120" r="150" fill="#bfe3dc" opacity=".5"/>
+  <circle cx="96" cy="556" r="112" fill="#c4e6df" opacity=".55"/>
+  <circle cx="400" cy="330" r="268" fill="#ffffff" opacity=".34"/>
+
+  <!-- Línea de pulso decorativa -->
+  <path d="M24 540h158l26-14 18 32 24-18h64l30 12 22-42 20 96 26-66 18 22h196l24-12 18 24 20-14h84"
+        fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".16"/>
+
+  <!-- Cruces decorativas -->
+  <g fill="#0f766e" opacity=".14">
+    <path d="M158 122h16v22h22v16h-22v22h-16v-22h-22v-16h22z"/>
+    <path d="M642 466h14v18h18v14h-18v18h-14v-18h-18v-14h18z"/>
+  </g>
+
+  <!-- Insignia con cruz médica -->
+  <g transform="translate(628 176)">
+    <rect width="92" height="92" rx="24" fill="#ffffff" opacity=".9"/>
+    <path d="M38 18h16v20h20v16H54v20H38V54H18V38h20z" fill="#0f766e"/>
+  </g>
+
+  <!-- Sombra y soporte -->
+  <ellipse cx="404" cy="604" rx="180" ry="22" fill="#0e2421" opacity=".12"/>
+  <rect x="330" y="544" width="144" height="18" rx="9" fill="url(#heroStand)"/>
+  <circle cx="350" cy="574" r="14" fill="#7f9c96"/>
+  <circle cx="350" cy="574" r="6" fill="#eef6f4"/>
+  <circle cx="454" cy="574" r="14" fill="#7f9c96"/>
+  <circle cx="454" cy="574" r="6" fill="#eef6f4"/>
+  <rect x="392" y="430" width="16" height="118" rx="8" fill="url(#heroStand)"/>
+
+  <!-- Cuerpo del monitor -->
+  <rect x="170" y="130" width="460" height="300" rx="30" fill="url(#heroBody)" stroke="#c3dcd6" stroke-width="2"/>
+  <rect x="194" y="154" width="412" height="226" rx="16" fill="url(#heroScreen)"/>
+
+  <g clip-path="url(#heroScreenClip)">
+    <rect x="194" y="154" width="412" height="226" fill="url(#heroGrid)" opacity=".55"/>
+
+    <!-- Etiquetas y cifras -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="216" y="184" fill="#7dd3c7" font-size="13" letter-spacing="1.5">FC</text>
+      <text x="216" y="228" fill="#6ee7b7" font-size="48" font-weight="700">76</text>
+      <text x="288" y="226" fill="#7dd3c7" font-size="14">bpm</text>
+
+      <text x="414" y="184" fill="#93c5fd" font-size="13" letter-spacing="1.5">SpO₂</text>
+      <text x="414" y="218" fill="#bfdbfe" font-size="30" font-weight="700">98%</text>
+
+      <text x="512" y="184" fill="#99f6e4" font-size="12" letter-spacing="1.5">NIBP</text>
+      <text x="512" y="208" fill="#ccfbf1" font-size="17" font-weight="600">118/76</text>
+    </g>
+
+    <!-- Onda principal -->
+    <path d="M206 306h62l12-8 8 14 10-6h28l14 8 10-12 8 58 10-84 12 46 10-12h44l12 8 10-10 8 16 10-8h48l10 6 8-8 8 10 10-8h44"
+          fill="none" stroke="#34d399" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity=".16"/>
+    <path d="M206 306h62l12-8 8 14 10-6h28l14 8 10-12 8 58 10-84 12 46 10-12h44l12 8 10-10 8 16 10-8h48l10 6 8-8 8 10 10-8h44"
+          fill="none" stroke="#34d399" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Onda secundaria -->
+    <path d="M206 348h74l10-6 8 10 10-4h42l12 6 8-8 8 22 10-30 10 18 8-6h52l10 4 8-6 8 8 10-6h42"
+          fill="none" stroke="#60a5fa" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+
+    <!-- Pie de pantalla -->
+    <text x="216" y="370" fill="#99f6e4" font-size="12" letter-spacing="1.5"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">RITMO SINUSAL · DERIVACIÓN II</text>
+  </g>
+
+  <!-- Controles -->
+  <circle cx="232" cy="405" r="9" fill="#d3e6e1"/>
+  <circle cx="232" cy="405" r="3.5" fill="#0f766e"/>
+  <circle cx="266" cy="405" r="9" fill="#d3e6e1"/>
+  <circle cx="266" cy="405" r="3.5" fill="#0f766e"/>
+  <circle cx="534" cy="405" r="9" fill="#d3e6e1"/>
+  <circle cx="534" cy="405" r="3.5" fill="#0f766e"/>
+  <circle cx="568" cy="405" r="9" fill="#d3e6e1"/>
+  <circle cx="568" cy="405" r="3.5" fill="#0f766e"/>
+  <text x="400" y="410" text-anchor="middle" fill="#5b6c69" font-size="12" letter-spacing="4"
+        font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">BIOAURORA</text>
+</svg>
